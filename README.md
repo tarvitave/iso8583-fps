@@ -1,5 +1,6 @@
 # iso8583-fps
 
+[![PyPI](https://img.shields.io/pypi/v/iso8583-fps.svg)](https://pypi.org/project/iso8583-fps/)
 [![CI](https://github.com/tarvitave/iso8583-fps/actions/workflows/ci.yml/badge.svg)](https://github.com/tarvitave/iso8583-fps/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -45,11 +46,11 @@ mti, fields = unpack(raw, binary=True)     # round-trips
 
 ## Install
 
-Copy the single file, or:
-
 ```bash
-pip install iso8583-fps        # once published to PyPI — see PUBLISHING.md
+pip install iso8583-fps
 ```
+
+…or just copy the single `iso8583_fps.py` file — it has no dependencies.
 
 ## Data elements (FPS profile)
 
