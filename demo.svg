@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="431" viewBox="0 0 780 431" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">
+<rect width="780" height="431" rx="10" fill="#0d1117" stroke="#30363d"/>
+<circle cx="22" cy="22" r="6" fill="#ff5f56"/><circle cx="42" cy="22" r="6" fill="#ffbd2e"/><circle cx="62" cy="22" r="6" fill="#27c93f"/>
+<text x="390.0" y="26" fill="#8b949e" font-size="12" text-anchor="middle">iso8583-fps — example.py</text>
+<line x1="0" y1="40" x2="780" y2="40" stroke="#30363d"/>
+<text x="20.0" y="58" fill="#7ee787" xml:space="preserve">$ </text>
+<text x="36.8" y="58" fill="#c9d1d9" xml:space="preserve">python example.py</text>
+<text x="20.0" y="100" fill="#8b949e" xml:space="preserve">ASCII request : </text>
+<text x="154.4" y="100" fill="#79c0ff" xml:space="preserve">0200B0200001080080000000000006000180500000…</text>
+<text x="20.0" y="121" fill="#8b949e" xml:space="preserve">MTI           : </text>
+<text x="154.4" y="121" fill="#e3b341" xml:space="preserve">0200</text>
+<text x="20.0" y="142" fill="#8b949e" xml:space="preserve">  DE 3   Processing code                 = </text>
+<text x="381.2" y="142" fill="#c9d1d9" xml:space="preserve">500000</text>
+<text x="20.0" y="163" fill="#8b949e" xml:space="preserve">  DE 4   Amount, transaction (minor)     = </text>
+<text x="381.2" y="163" fill="#c9d1d9" xml:space="preserve">000000012345</text>
+<text x="20.0" y="184" fill="#8b949e" xml:space="preserve">  DE 11  System trace audit number       = </text>
+<text x="381.2" y="184" fill="#c9d1d9" xml:space="preserve">000001</text>
+<text x="20.0" y="205" fill="#8b949e" xml:space="preserve">  DE 32  Acquiring institution (sortcode)= </text>
+<text x="381.2" y="205" fill="#c9d1d9" xml:space="preserve">123456</text>
+<text x="20.0" y="226" fill="#8b949e" xml:space="preserve">  DE 37  Retrieval reference number      = </text>
+<text x="381.2" y="226" fill="#c9d1d9" xml:space="preserve">INV-9</text>
+<text x="20.0" y="247" fill="#8b949e" xml:space="preserve">  DE 49  Currency code (ISO 4217 num)    = </text>
+<text x="381.2" y="247" fill="#c9d1d9" xml:space="preserve">826</text>
+<text x="20.0" y="268" fill="#8b949e" xml:space="preserve">  DE 102 Account identification 1 (from) = </text>
+<text x="381.2" y="268" fill="#c9d1d9" xml:space="preserve">12345600087654</text>
+<text x="20.0" y="289" fill="#8b949e" xml:space="preserve">  DE 103 Account identification 2 (to)   = </text>
+<text x="381.2" y="289" fill="#c9d1d9" xml:space="preserve">65432100012345</text>
+<text x="20.0" y="310" fill="#8b949e" xml:space="preserve">  DE 120 Private: creditor name          = </text>
+<text x="381.2" y="310" fill="#c9d1d9" xml:space="preserve">Bob Builder</text>
+<text x="20.0" y="331" fill="#8b949e" xml:space="preserve">  DE 121 Private: remittance / reference = </text>
+<text x="381.2" y="331" fill="#c9d1d9" xml:space="preserve">invoice 9</text>
+<text x="20.0" y="373" fill="#8b949e" xml:space="preserve">binary bytes  : </text>
+<text x="154.4" y="373" fill="#79c0ff" xml:space="preserve">0200b0200001080080…  </text>
+<text x="330.8" y="373" fill="#8b949e" xml:space="preserve">amount DE4 = </text>
+<text x="440.0" y="373" fill="#c9d1d9" xml:space="preserve">000000012345</text>
+<text x="20.0" y="394" fill="#8b949e" xml:space="preserve">response MTI  : </text>
+<text x="154.4" y="394" fill="#e3b341" xml:space="preserve">0210</text>
+<text x="188.0" y="394" fill="#8b949e" xml:space="preserve">  code DE39 = </text>
+<text x="305.6" y="394" fill="#7ee787" xml:space="preserve">00</text>
+</svg>

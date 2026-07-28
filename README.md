@@ -1,6 +1,12 @@
 # iso8583-fps
 
+[![CI](https://github.com/tarvitave/iso8583-fps/actions/workflows/ci.yml/badge.svg)](https://github.com/tarvitave/iso8583-fps/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 A small, dependency-free **ISO 8583 codec** in Python, with a **UK Faster Payments (FPS)** message profile — in both **ASCII** and **BCD/binary** encodings.
+
+![iso8583-fps decoding an FPS-profiled message](demo.svg)
 
 ISO 8583 is the classic card / interbank message format (4-digit MTI, a primary + optional
 secondary bitmap flagging which data elements are present, and typed data elements framed as
@@ -42,7 +48,7 @@ mti, fields = unpack(raw, binary=True)     # round-trips
 Copy the single file, or:
 
 ```bash
-pip install iso8583-fps        # once published to PyPI
+pip install iso8583-fps        # once published to PyPI — see PUBLISHING.md
 ```
 
 ## Data elements (FPS profile)
